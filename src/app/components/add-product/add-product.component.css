@@ -1,0 +1,16 @@
+.add-product-btn {
+  background-color: #434A54;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+}
+
+.add-product-btn:hover {
+  background-color: #0056b3;
+}
+
+.add-product-btn i {
+  margin-right: 8px;
+}

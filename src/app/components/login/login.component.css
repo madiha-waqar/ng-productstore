@@ -1,0 +1,40 @@
+.container.mt-3 {
+    margin-top: 1.5rem !important; 
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #333;
+  }
+
+
+.login-card {
+    max-width: 80%; 
+    margin: 0 auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+/* Add to Cart Button */
+.submit-btn {
+  background-color: #434A54;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.submit-btn i {
+  margin-right: 8px;
+}

@@ -1,0 +1,70 @@
+/* Container styling */
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+/* Dashboard Card Styling */
+.dashboard-card {
+  border: 1px solid #eaeaea; /* Light grey border */
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+.dashboard-card:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  transform: translateY(-4px); /* Slight lift effect on hover */
+}
+
+/* Card Body */
+.dashboard-card .card-body {
+  padding: 25px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Card Title Styling */
+.dashboard-card .card-title {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #0056b3;
+  margin-bottom: 0.75rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* Card Icon Styling */
+.dashboard-card .avatar {
+  color: #007bff; /* Bright blue for avatar icon */
+  margin-bottom: 15px;
+}
+
+/* List Styling for Card Text */
+.dashboard-card .list-unstyled {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.dashboard-card .list-unstyled li {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+  color: #4a4a4a;
+  padding: 5px 0;
+  border-bottom: 1px solid #eaeaea; /* Divider line between items */
+}
+
+.dashboard-card .list-unstyled li:last-child {
+  border-bottom: none; /* Remove divider from last item */
+}
+
+.dashboard-card .list-unstyled li i {
+  color: #007bff; /* Consistent blue color for icons */
+  margin-right: 10px;
+  font-size: 1rem;
+}
+

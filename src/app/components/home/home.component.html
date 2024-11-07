@@ -1,0 +1,24 @@
+<div class="container mt-5">
+  <h2 class="text-center m-5" style="text-decoration: underline;">Angular Product Store Using Fake APIs</h2>
+  <div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4" *ngFor="let product of products; else noProducts">
+      <div class="card product-card h-100 shadow-sm">
+        <h5 class="card-title">{{ product.title }}</h5>
+        <div class="card-img-container">
+          <img [src]="product.image" class="card-img" alt="{{ product.title }}">
+        </div>
+        <div class="card-body">
+           <p class="card-text">{{ product.description }}</p>
+          <p class="card-price"><strong>${{ product.price }}</strong></p>
+          <button class="btn btn-primary btn-block add-to-cart-btn" (click)="addToCart(product)">
+            <i class="fas fa-cart-plus"></i> Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #noProducts>
+  <h1>Sorry! No products to display at this time.</h1>
+</ng-template>
